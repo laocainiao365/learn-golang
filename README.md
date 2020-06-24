@@ -1,2 +1,2 @@
 # learn-golang
-go语言基础
+这是一个学习golang的demo
