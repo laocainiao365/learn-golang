@@ -1,9 +1,8 @@
 package main
 
-import (
-	"learn-golang/time"
-)
+import "learn-golang/lib"
 
 func main(){
-	time.Time()
+
+	Reflect.Reflect()
 }
