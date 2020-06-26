@@ -1,8 +1,9 @@
 package main
 
-import "learn-golang/lib"
+import "learn-golang/Reflect"
 
 func main(){
 
-	Reflect.Reflect()
+	//Reflect.Reflect()
+	Reflect.ReflectValue()
 }
