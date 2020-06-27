@@ -47,7 +47,8 @@ reflect.ValueOf(params)返回一个reflect.value这个里面有 int()\string()�
 ```go
 func toValue(c interface{}){
     d := reflect.ValueOf(c)
-	// 判断指针类型用Elem()
+	// 如果参数传入的是个指针类型，判断原始类型用Elem()
+    // reflect.ValueOf(c).Elem().Kind() 或者 reflect.TypeOf(c).Elem().Kind()
 	if reflect.ValueOf(c).Elem().Kind() == reflect.Int{
 		d.Elem().SetInt(399)
 	}

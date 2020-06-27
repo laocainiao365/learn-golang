@@ -15,12 +15,13 @@ func toValue(c interface{}){
 	if reflect.ValueOf(c).Elem().Kind() == reflect.Int{
 		d.Elem().SetInt(399)
 	}
-	v := reflect.ValueOf(c)
-	stype := v.Kind()
-	fmt.Println(stype)
-	sum := v.Int() + 20
+	//v := reflect.ValueOf(c)
+	//stype := v.Kind()
+
 }
 
+
+//
 func ReflectValue(){
 	var n = 100
 	toValue(n)

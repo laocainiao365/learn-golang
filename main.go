@@ -1,9 +1,12 @@
 package main
 
-import "learn-golang/Reflect"
+import (
+	"learn-golang/readwrite"
+)
 
 func main(){
 
 	//Reflect.Reflect()
-	Reflect.ReflectValue()
+	//Reflect.Fn()
+	readwrite.Read()
 }

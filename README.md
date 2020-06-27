@@ -3,5 +3,5 @@
 基础内容：
 | ... | ...|...|
 |:---:|:---:|:---:|
-|[反射reflect](https://github.com/laocainiao365/learn-golang/tree/master/Reflect)|[time](https://github.com/laocainiao365/learn-golang/tree/master/time)|[reflect]()|
+|[反射reflect](https://github.com/laocainiao365/learn-golang/tree/master/Reflect)|[文件读写](https://github.com/laocainiao365/learn-golang/tree/master/readwrite)|[reflect]()|
 
