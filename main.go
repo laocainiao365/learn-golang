@@ -1,13 +1,19 @@
 package main
 
-import "learn-golang/readwrite"
+import (
+	"learn-golang/readwrite"
+)
 
-func main(){
+func main() {
 
 	//Reflect.Reflect()
 	//Reflect.Fn()
 	//readwrite.Read()
-	readwrite.Bufio()
+	//readwrite.Bufio()
+	// url, _ := os.Getwd()
+	// url = url + "/.idea/workspace.xml"
+	// readwrite.Ioutil(url)
+	readwrite.WriteBufio()
 	//log.Panicln("dkkd")
 	//point.Show()
 }
